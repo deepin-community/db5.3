@@ -1,3 +1,9 @@
+db5.3 (5.3.28+dfsg1-0.8deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 19 Sep 2024 22:44:34 +0800
+
 db5.3 (5.3.28+dfsg1-0.8) unstable; urgency=medium
 
   * Non-maintainer upload.
