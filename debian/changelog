@@ -1,4 +1,10 @@
-db5.3 (5.3.28+dfsg2-9) unstable; urgency=medium
+db5.3 (5.3.28+dfsg2-9deepin1) unstable; urgency=medium
+
+  * Revert t64.
+
+ -- zengwei <zengwei1@uniontech.com>  Wed, 23 Jul 2025 11:28:09 +0800
+
+ db5.3 (5.3.28+dfsg2-9) unstable; urgency=medium
 
   * QA upload.
   * Fix the "64-bit integral type support for sequences"

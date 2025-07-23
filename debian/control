@@ -26,7 +26,7 @@ Description: Berkeley v5.3 Database Documentation [html]
 Package: libdb5.3-dev
 Architecture: any
 Section: libdevel
-Depends: libdb5.3t64 (= ${binary:Version}),
+Depends: libdb5.3 (= ${binary:Version}),
 	 ${misc:Depends}
 Suggests: db5.3-doc
 Conflicts: libdb4.6-dev, libdb4.7-dev, libdb4.8-dev, libdb5.1-dev, libdb5.2-dev
@@ -34,8 +34,7 @@ Description: Berkeley v5.3 Database Libraries [development]
  This is the development package which contains headers and static
  libraries for the Berkeley v5.3 database library.
 
-Package: libdb5.3t64
-Provides: ${t64:Provides}
+Package: libdb5.3
 Replaces: libdb5.3
 Breaks: libdb5.3 (<< ${source:Version})
 Architecture: any
@@ -71,8 +70,7 @@ Description: Berkeley v5.3 Database Utilities
     contain.
   - db5.3_verify: check the structure of files and their databases.
 
-Package: libdb5.3++t64
-Provides: ${t64:Provides}
+Package: libdb5.3++
 Replaces: libdb5.3++
 Breaks: libdb5.3++ (<< ${source:Version})
 Architecture: any
@@ -87,7 +85,7 @@ Description: Berkeley v5.3 Database Libraries for C++ [runtime]
 Package: libdb5.3++-dev
 Architecture: any
 Section: libdevel
-Depends: libdb5.3++t64 (= ${binary:Version}),
+Depends: libdb5.3++ (= ${binary:Version}),
 	 libdb5.3-dev (= ${binary:Version}),
 	 ${misc:Depends}
 Conflicts: libdb4.6++-dev, libdb4.7++-dev, libdb4.8++-dev, libdb5.1++-dev, libdb5.2++-dev
@@ -99,7 +97,7 @@ Description: Berkeley v5.3 Database Libraries for C++ [development]
 Package: libdb5.3-dbg
 Architecture: any
 Section: debug
-Depends: libdb5.3t64 (= ${binary:Version}),
+Depends: libdb5.3 (= ${binary:Version}),
 	 ${misc:Depends}
 Multi-Arch: same
 Description: Berkeley v5.3 Database Libraries [debug]
