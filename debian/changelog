@@ -9,7 +9,7 @@ db5.3 (5.3.28+dfsg2-9deepin1) unstable; urgency=medium
   * QA upload.
   * Fix the "64-bit integral type support for sequences"
     autoconf test with gcc 14.
-
+    
  -- Adrian Bunk <bunk@debian.org>  Tue, 15 Oct 2024 14:40:15 +0300
 
 db5.3 (5.3.28+dfsg2-8) unstable; urgency=medium
